@@ -1,0 +1,9 @@
+a{
+    display: inline-block;
+    color: purple; 
+    text-decoration: none; 
+    border: 1px solid rgb(94, 25, 25);
+    transition: all 0.3s ease; 
+}
+
+
