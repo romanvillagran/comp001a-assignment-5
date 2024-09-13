@@ -6,4 +6,7 @@ a{
     transition: all 0.3s ease; 
 }
 
-
+.external-css {
+    color: blanchedalmond;
+    background-color: blue;
+}
