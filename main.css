@@ -1,6 +1,6 @@
 a{
     display: inline-block;
-    color: purple; 
+    color: rgb(121, 11, 121); 
     text-decoration: none; 
     border: 1.5px solid rgb(14, 108, 215);
     transition: all 0.3s ease; 
@@ -23,11 +23,20 @@ p {
 
 a {
     display: inline-block; 
-    color: black; 
+    color: rgb(152, 10, 10); 
     text-decoration: none; 
     padding: 3px 6px; 
     border: 1px solid palevioletred; 
     transition: all 0.2s ease;
+}
+
+a:hover {
+    background-color: #c616d6; /
+    color: white;
+}
+
+button:hover {
+    background-color: red; 
 }
 
 .feature-card {
@@ -49,7 +58,20 @@ a {
 }
 
 #special-feature {
-    background-color: #fde3a7; 
-    border-color: #f39c12; 
+    background-color: #a7fdf3; 
+    border-color: #12f39d; 
     box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1); 
+}
+
+h1, h2, h3 {
+    color: #0e67c0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(15, 15, 231);
+}
+
+p a {
+    color: rgb(255, 247, 0);
 }
